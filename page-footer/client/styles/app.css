@@ -1,0 +1,128 @@
+
+#page-footer {
+  height: 222px;
+  width: calc(100% - 40px);
+  background-color: #111;
+  padding: 30px 20px 0px;
+  transition: height 0.5s;
+}
+
+#page-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#page-footer span {
+  width: calc(100% - 5px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 1;
+}
+
+#page-footer .grey {
+  color: #7e7e7e;
+}
+
+#page-footer .grey:hover {
+  color: #ffffff;
+}
+
+#page-footer .white {
+  color: #ffffff;
+}
+
+#page-footer .left {
+  float: left;
+  text-align: left;
+}
+
+#page-footer .right {
+  float: right;
+  text-align: right;
+}
+
+#page-footer #footer-links {
+  max-width: 1112px;
+  margin: 0px auto;
+}
+
+#page-footer .link {
+  cursor: pointer;
+  font-weight: 400;
+}
+
+#page-footer .link.guide {
+  height: 19px !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  float: left !important;
+  text-align: left !important;
+}
+
+#page-footer .link.minor {
+  font-family: 'Helvetica Neue';
+  font-size: 9px;
+  color: #7e7e7e;
+  line-height: 2;
+  margin-bottom: 4px;
+}
+
+#page-footer .link.minor:hover {
+  color: #fff;
+}
+
+#page-footer .link.major {
+  font-family: 'Roboto Condensed';
+  font-size: 11px;
+  color: #fff;
+  line-height: 2;
+  margin-bottom: 4px;
+}
+
+#page-footer .link.social {
+  width: 28px;
+  height: 28px;
+  float: right;
+  line-height: 2;
+  margin: 0;
+}
+
+#page-footer .link.social .circle {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-color: #7e7e7e;
+  border-radius: 50%;
+  margin: 0px 0px 12px 12px;
+}
+
+#page-footer .link.social .circle:hover {
+  background-color: #fff;
+}
+
+#page-footer .link.social svg {
+  width: 14px;
+  height: 14px;
+  color: #000;
+  position: relative;
+  top: 1px;
+  left: 1.25px;
+}
+
+#page-footer .react:hover {
+  color: #fbb157 !important;
+  font-weight: 700 !important;
+}
+
+@media all and (max-width: 510px) {
+
+  #page-footer {
+    height: 382px;
+    padding: 19px 20px 0px;
+    transition: height 0s;
+  }
+
+}

@@ -1,0 +1,122 @@
+#page-footer img {
+  margin: -1px 10px 0px 0px;
+  cursor: pointer;
+}
+
+#page-footer .bline {
+  float: left;
+  display: inline-block;
+  width: 100%;
+  height: 19px;
+  padding: 12px 0px 5px;
+  border-top: solid 0.5px #7e7e7e;
+  transition: height 0.5s;
+}
+
+#page-footer .link {
+  font-family: 'Helvetica Neue';
+  font-size: 9px;
+  padding: 1px 0px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#page-footer #ll1 {
+  width: 12%;
+  min-width: 88px;
+}
+
+#page-footer #ll2 {
+  width: 40%;
+  min-width: 90px;
+  cursor: text;
+}
+
+#page-footer #ll3 {
+  width: 14.5%;
+}
+
+#page-footer #ll4 {
+  width: 13.5%;
+}
+
+#page-footer #ll5 {
+  width: 11.5%;
+}
+
+/* #page-footer #ll5:hover div {
+  display: block;
+} */
+
+#page-footer #glinks {
+  width:0px;
+  display: none;
+  position: absolute;
+  width: calc(60% - 20px);
+  height: 225px;
+  bottom: -1195px;
+  right: 10px;
+}
+
+#page-footer #glinks .popup {
+  width: 100%;
+  height: calc(100% - 15px);
+  border: solid 0.5px #525252;
+  background-color: #111;
+  z-index: 999;
+}
+
+#page-footer #glinks .popup .list {
+  width: calc(100%/3 - 10px);
+  height: calc(100% - 25px);
+  padding: 25px 0px 0px 10px;
+  float: left;
+  display: inline-block;
+}
+
+#page-footer #glinks .highlight {
+  display: none;
+  width: 50px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 12px;
+  z-index: 999;
+  right: calc((100vw - 1112px - 20px)/2 + 302px);
+}
+
+@media all and (max-width: 1112px) {
+  #page-footer #glinks .highlight {
+    right: calc(46% + 2px);
+  }
+}
+
+@media all and (max-width: 510px) {
+  #page-footer .bline {
+    height: 59px !important;
+  }
+
+  #page-footer .bline .link {
+    float: left !important;
+    display: block !important;
+    width: 100% !important;
+    height: 19px;
+  }
+
+  #page-footer .bline .link.right {
+    position: relative;
+    top: -42px;
+  }
+
+  #page-footer .bline #ll5:hover div {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 255px) {
+  .link.right {
+    display: none !important;
+  }
+}
+
+

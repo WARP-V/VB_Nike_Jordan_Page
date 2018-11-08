@@ -1,0 +1,138 @@
+#review-model .reviews {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: 80px;
+  width: 377px;
+  overflow: hidden;
+  border-top: solid;
+  border-width: 1px; 
+  border-color: #6d6d6d;
+  border-bottom: solid;
+  border-width: 1px; 
+  border-color: #D3D3D3;
+}
+
+#review-model .allReviews {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: auto;
+  width: 377px;
+  overflow: hidden;
+  border-top: solid;
+  border-width: 1px; 
+  border-color: #6d6d6d;
+  border-bottom: solid;
+  border-width: 1px; 
+  border-color: #D3D3D3;
+}
+
+#review-model button {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  padding-left: 0px;
+  white-space: nowrap;
+  padding: 0px;
+}
+
+#review-model button:focus {
+  outline: none;
+}
+
+#review-model .overallButton {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  width: 377px;
+  padding-left: 0px;
+  border-bottom: none;
+}
+
+#review-model .reviewOversight {
+  float: left;
+}
+
+#review-model .overallStars {
+  float: right;
+}
+
+#review-model .reviewTitle {
+  font-weight: 700;
+}
+
+#review-model p {
+  line-height: 1.714285714285714;
+  font-size: 14px;
+}
+
+#review-model .reviewstars {
+  font-size: 12px;
+}
+
+#review-model .reviewDateAndAuthor {
+  font-size: 12px;
+  color: #6d6d6d;
+  margin-left: 20px;
+}
+
+#review-model .reviewBody {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+#review-model .moreReviewsbutton {
+  margin-bottom: 60px;
+  border-bottom: 1px solid black;
+}
+
+#review-model .overallArrow {
+  float: right;
+  margin-left: 10px;
+}
+
+#review-model .moreButton {
+  border-bottom: 1px solid black;
+}
+
+#review-model .shippingTitle {
+  float: left;
+}
+
+#review-model .shipping {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: 80px;
+  width: 377px;
+  overflow: hidden;
+  border-top: solid;
+  border-width: 1px; 
+  border-color: #6d6d6d;
+  border-bottom: none;
+  border-width: 1px; 
+  border-color: #D3D3D3;
+}
+
+#review-model .allShipping {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  height: auto;
+  width: 377px;
+  overflow: hidden;
+  border-top: solid;
+  border-width: 1px; 
+  border-color: #6d6d6d;
+  border-bottom: none;
+  border-width: 1px; 
+  border-color: #D3D3D3;
+  margin-bottom: 40px;
+}
+
+#review-model ul {
+  font-size: 14px;
+  margin-left: 5px;
+  padding-left: 10px;
+}
+
+#review-model li {
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding-left: 0px;
+  align-content: left;
+}

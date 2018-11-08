@@ -1,0 +1,12 @@
+# IGNORE ALL NODE MODULES
+node_modules
+
+# INGORE WEBPACK BUNDLE
+public/mpg_bundle.js
+
+
+# IGNORE ESLINT
+.eslintrc.js
+
+# TEST COVERAGE INFORMATION
+coverage

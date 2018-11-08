@@ -1,0 +1,21 @@
+*.log
+
+.DS_Store
+
+bower_components
+
+node_modules
+
+example
+
+public/bundle.js
+bundle.js
+
+jest coverage folder
+
+coverage/
+
+# webpack/package
+package-lock.json
+
+

@@ -1,0 +1,148 @@
+#sizesAndDescription {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 377px;
+  height: fit-content;
+  float: right;
+  padding-right: 30px;
+  font-size: 10px;
+  color:black; 
+}
+
+#sizesAndDescription .sizes-title {
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+#sizesAndDescription .sizes-guide {
+  float: right;
+  color: gray;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#sizesAndDescription .sizes-table {
+  float:right;
+  width: 100%;
+}
+
+#sizesAndDescription .sizes-buttons {
+  background-color: white;
+  height: 90%;
+  width: 17%;
+  margin: 2px;
+  border: lightgray;
+  display: inline-block;
+  padding: 1px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  align-content: center;
+}
+
+#sizesAndDescription .sizes-buttons:hover {
+  border: 2px solid black;
+  margin: 1px;
+}
+
+#sizesAndDescription .sizes-buttons:active {
+  background-color: black;
+}
+
+#sizesAndDescription .sizes-num {
+  display: inline-block;
+  margin: 25%;
+}
+
+#sizesAndDescription .cart {
+  width: 377px;
+}
+
+#sizesAndDescription .cart-button {
+  height: 30.85px;
+  width: calc(100% - 80px);
+  background: black;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#sizesAndDescription .heart-button {
+  height: 30.85px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+  background: black;
+  color: white;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+#sizesAndDescription .available {
+  background: rgba(221, 221, 221, 0.5)
+}
+
+#sizesAndDescription .available .sizes-num {
+  color: rgb(221, 221, 221)
+}
+
+#sizesAndDescription .row {
+  width: 100%;
+  height: 48px;
+  margin: 3px;
+}
+
+#sizesAndDescription .description-paragraph {
+  padding-top: 16px;
+  float: right;
+  width: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#sizesAndDescription .description-paragraph p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-right: 30px;
+  font-size: 18px;
+  display: block;
+  font-stretch: 100%;
+  line-height: 27px;
+  padding-top: 16px;
+}
+
+#sizesAndDescription .description-details {
+  padding-top: 20px;
+  float:right;
+  width:100%;
+  padding: auto;
+  margin: auto;
+  font-size: 16px;
+}
+
+#sizesAndDescription li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+  
+#sizesAndDescription .description-readmore {
+  padding-top: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+#sizesAndDescription .current {
+  background-color: black;
+  color: white;
+}
+

@@ -1,0 +1,26 @@
+#mpg .pdp-6-up {
+  width: fit-content;
+  margin: 20px -8px 0px 4px;
+  padding: 0px 0px 0px 44px;
+}
+
+#mpg .image-row {
+  width: 950px;
+}
+
+#mpg .col_1, .col_2 {
+  display: inline-block;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+
+#mpg img:hover {
+  cursor:pointer;
+}
+
+#mpg .photo_grid_item {
+  display: inline-block;
+  height: flex;
+  width: 48%;
+  max-width: 48%;
+}

@@ -1,0 +1,13 @@
+
+## mac osx ##
+.DS_Store
+
+## npm ##
+node_modules/
+package-lock.json
+
+## compiled files ##
+public/bundle.js
+
+## jest output ##
+coverage/
